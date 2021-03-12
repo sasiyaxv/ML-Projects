@@ -1,0 +1,5 @@
+
+json is the target folder name
+first para is the model h5 file name
+
+tensorflowjs_converter --input_format keras save_at_200.h5 json
