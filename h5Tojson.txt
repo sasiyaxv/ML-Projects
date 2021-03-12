@@ -3,3 +3,7 @@ json is the target folder name
 first para is the model h5 file name
 
 tensorflowjs_converter --input_format keras save_at_200.h5 json
+
+To add all bin files together that are generated
+
+type group1-shard1of3.bin group1-shard2of3.bin group1-shard3of3.bin > group1_shard.bin
